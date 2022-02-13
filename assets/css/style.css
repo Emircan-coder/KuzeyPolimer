@@ -446,7 +446,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 2px solid #71a416;
@@ -454,7 +454,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .btn-get-started:hover {
   background: transparent;
-  color: #71a416;
+  color: #ffffff;
   text-decoration: none;
 }
 @media (max-height: 768px), (max-width: 1200px) {
@@ -1783,12 +1783,13 @@ section {
   padding: 0 30px;
   margin: 3px;
   background: #71a416;
-  color: #fff;
+  color: rgb(255, 255, 255);
   transition: 0.3s;
   border-radius: 50px;
 }
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #71a416;
+  background: #ffffff;
+  color: #000;
 }
 #footer .footer-top {
   background: ##1e435a;

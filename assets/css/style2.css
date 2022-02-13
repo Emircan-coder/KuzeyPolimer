@@ -416,7 +416,7 @@ body {
   }
   #hero .btn-get-started:hover {
     background: transparent;
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
   }
   @media (max-height: 768px), (max-width: 1200px) {
