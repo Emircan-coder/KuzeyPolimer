@@ -9,8 +9,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
   color: #444444;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -233,7 +233,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn-outline-light {
   color: #f8f9fa;
   border-color: #f8f9fa;
-  margin: 17px 4rem;
+  margin: 20px 3rem;
   padding: 0.34rem 3rem;
   line-height: 2;
 }
@@ -557,6 +557,43 @@ section {
 /*--------------------------------------------------------------
 # Featured
 --------------------------------------------------------------*/
+.Featured {
+  position: relative;
+  z-index: 2;
+}
+.Featured .icon-box {
+  padding: 40px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background: #71a416;
+  transition: all ease-in-out 0.3s;
+  height: 100%;
+}
+.Featured .icon-box i {
+  color: #71a416;
+  font-size: 42px;
+  margin-bottom: 15px;
+  display: block;
+  line-height: 0;
+}
+.Featured .icon-box h3 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+.Featured .icon-box h3 a {
+  color: #545454;
+  transition: 0.3s;
+}
+.Featured .icon-box p {
+  color: white;
+  line-height: 24px;
+  font-size: 21px;
+  margin-bottom: 0;
+}
+
+
+/* -------------------------------------------------------------- */
 .featured {
   position: relative;
   z-index: 2;
@@ -569,12 +606,19 @@ section {
   transition: all ease-in-out 0.3s;
   height: 100%;
 }
-.featured .icon-box i {
-  color: #71a416;
-  font-size: 42px;
-  margin-bottom: 15px;
-  display: block;
-  line-height: 0;
+.featured .icon-box h4{
+  margin-left: 26%;
+  margin-top: 12%;
+  width: 161px;
+  height: 41px;
+  padding-top: 9px;
+  font-size: 17px;
+  border: 1px solid white;
+  border-radius: 41px;
+}
+.featured .icon-box h4 a{
+color: white;
+margin-left: 18%;
 }
 .featured .icon-box h3 {
   font-weight: 700;
@@ -582,14 +626,15 @@ section {
   font-size: 20px;
 }
 .featured .icon-box h3 a {
-  color: #545454;
+  color: #fff;
   transition: 0.3s;
 }
 .featured .icon-box p {
-  color: white;
+  color: #fff;
   line-height: 24px;
-  font-size: 21px;
+  font-size: 14px;
   margin-bottom: 0;
+  opacity: 0.8;
 }
 /*--------------------------------------------------------------
 # About
@@ -1751,12 +1796,12 @@ section {
   font-size: 14px;
 }
 #footer .footer-newsletter {
-  padding: 50px 0;
+  padding: 30px 0;
   background: #1e435a;
 }
-#footer .footer-newsletter h4 {
-  font-size: 24px;
-  margin: 0 0 20px 0;
+#footer .footer-newsletter h3 {
+  font-size: 19px;
+  margin: 20px 0px 0px 0;
   padding: 0;
   line-height: 1;
   font-weight: 600;
@@ -1765,13 +1810,14 @@ section {
   padding: 25px 10px;
   position: relative;
   border-radius: 50px;
-  margin: 10px 304px;
+  margin: 10px 243px;
 }
 #footer .footer-newsletter form input[type=email] {
   border: 0;
   padding: 8px;
   width: calc(100% - 140px);
 }
+
 #footer .footer-newsletter form input[type=submit] {
   position: absolute;
   top: 0;
@@ -1792,7 +1838,7 @@ section {
   color: #000;
 }
 #footer .footer-top {
-  background: ##1e435a;
+  background: #1e435a;
   border-top: 1px solid ##1e435a;
   border-bottom: 1px solid ##1e435a;
   padding: 60px 0 30px 0;
@@ -1887,4 +1933,32 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+.servıces-menu{
+  margin-right: 20px;
+  padding: 106px 24px;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  list-style: none;
+}
+
+.servıces-menu li {
+  padding-top: 12px;
+  padding-bottom: 10px;
+  border-radius: 6px;
+  transition: all 0.5s ease;
+}
+.servıces-menu li:hover{
+  background: #007538;
+  padding-left: 20px;
+  transition: all 0.5s ease;
+}
+.servıces-menu li a{
+  color: #000;
+  transition: all 0.5s ease;
+}
+.servıces-menu li:hover  a{
+  color: #ffffff;
+  transition: all 0.5s ease;
 }
