@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #topbar {
   background: #545454;
-  padding: 10px 0;
+  padding: 0px 0;
   font-size: 14px;
 }
 #topbar .contact-info i {
@@ -562,7 +562,6 @@ section {
 }
 .Featured .icon-box {
   padding: 0px 1px;
-  box-shadow: 0px 2px 15px rgb(84 84 84);
   border-radius: 10px;
   background: #545454;
   transition: all ease-in-out 0.3s;
