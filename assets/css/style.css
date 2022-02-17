@@ -233,9 +233,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn-outline-light {
   color: #f8f9fa;
   border-color: #f8f9fa;
-  margin: 20px 3rem;
-  padding: 0.34rem 3rem;
-  line-height: 2;
+  margin: 1rem -1rem 0rem 13rem;
 }
 
 /**
@@ -489,7 +487,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 0 0 80px 0;
+  padding: 3px 0 0px 0;
 }
 
 .section-bg {
@@ -498,7 +496,8 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
+  padding-top: 51px;
 }
 .section-title h2 {
   font-size: 28px;
@@ -562,10 +561,10 @@ section {
   z-index: 2;
 }
 .Featured .icon-box {
-  padding: 40px 30px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
+  padding: 0px 1px;
+  box-shadow: 0px 2px 15px rgb(84 84 84);
   border-radius: 10px;
-  background: #71a416;
+  background: #545454;
   transition: all ease-in-out 0.3s;
   height: 100%;
 }
@@ -588,8 +587,8 @@ section {
 .Featured .icon-box p {
   color: white;
   line-height: 24px;
-  font-size: 21px;
-  margin-bottom: 0;
+  font-size: 17px;
+  margin-left: -13px;
 }
 
 
