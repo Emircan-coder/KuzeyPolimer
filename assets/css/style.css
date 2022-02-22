@@ -26,7 +26,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
-
+.i
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -89,6 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 #topbar .social-links a:hover {
   color: white;
 }
+
 
 /*--------------------------------------------------------------
 # Header
@@ -228,15 +229,30 @@ h1, h2, h3, h4, h5, h6 {
     left: -100%;
   }
 }
-
 /* Buttons */
 .btn-outline-light {
   color: #f8f9fa;
   border-color: #f8f9fa;
-  margin: 1rem -1rem 0rem 13rem;
+  margin: -0.1rem 0rem -0.5rem 32rem;
 }
-
-/**
+@media (max-width:1024px) {
+  /* 768 px altında çalışmasını istediğiniz CSS kodlarınızı buraya yazınız */
+  .btn-outline-light {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+    margin: -2.4rem 0rem -0.5rem 46rem;
+}
+ }
+  
+ @media (min-device-width:360px) and (max-device-width:768px) {
+  /* 360 px ve 768 px arasında olan tüm çözünürlüklerde buraya yazdığınız CSS kodlarınız çalışır. */
+  .btn-outline-light {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+    margin: 0.6rem 1rem -0.5rem 6rem;
+}
+ }
+/** 
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
@@ -294,7 +310,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #545454;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: ##71a416;
+  color: #71a416;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -320,7 +336,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: ##71a416;
+  color: #71a416;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -377,7 +393,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 #hero h2 span {
-  color: ##71a416;
+  color: #71a416;
 }
 #hero p {
   width: 80%;
@@ -563,7 +579,7 @@ section {
 .Featured .icon-box {
   padding: 0px 1px;
   border-radius: 10px;
-  background: #545454;
+  /* background: #545454; */
   transition: all ease-in-out 0.3s;
   height: 100%;
 }
@@ -588,9 +604,23 @@ section {
   line-height: 24px;
   font-size: 17px;
   margin-left: -13px;
+  padding-top: 8px;
+} 
+
+@media (max-width:768px) {
+  /* 768 px altında çalışmasını istediğiniz CSS kodlarınızı buraya yazınız */
+  .Featured .icon-box p {
+    color: white;
+    line-height: 24px;
+    font-size: 17px;
+    margin-left: 8px;
+    padding-top: 8px;
 }
-
-
+ }
+  
+ @media (min-device-width:360px) and (max-device-width:768px) {
+  /* 360 px ve 768 px arasında olan tüm çözünürlüklerde buraya yazdığınız CSS kodlarınız çalışır. */
+ }
 /* -------------------------------------------------------------- */
 .featured {
   position: relative;
@@ -634,6 +664,17 @@ margin-left: 18%;
   margin-bottom: 0;
   opacity: 0.8;
 }
+
+@media (max-widht:768px) {
+  .Featured .icon-box p {
+    color: white;
+    line-height: 24px;
+    font-size: 16px;
+    margin-left: -43px;
+    padding-top: 8px;
+}
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
