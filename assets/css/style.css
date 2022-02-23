@@ -9,12 +9,12 @@
 # General
 --------------------------------------------------------------*/
 body {
-    color: #71a416;
+    color: #000000;
     font-family: 'Montserrat', sans-serif;
 }
 
 a {
-    color: #ffffff;
+    color: #71a416;
     text-decoration: none;
 }
 
