@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #topbar {
   background: #545454;
-  padding: 0px 0;
+  padding: 10px 0;
   font-size: 14px;
 }
 #topbar .contact-info i {
@@ -503,7 +503,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 3px 0 0px 0;
+    padding: 3px 0px 52px 0px;
 }
 
 .section-bg {
