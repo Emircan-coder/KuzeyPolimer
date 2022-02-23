@@ -1446,17 +1446,17 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-    color: black;
+    color: #444444;
     text-align: center;
-    box-shadow: 0 0 30px #ffffff;
+    /* box-shadow: 0 0 30px rgb(255 255 255 / 60%); */
     padding: 20px 0 30px 0;
-    border: 1px solid black;
-    border-radius: 13px;
+    border: 1px solid #444444;
+    border-radius: 10px;
 }
 
     .contact .info-box i {
         font-size: 32px;
-        color: black;
+        color: #239f1b;
         border-radius: 50%;
         padding: 8px;
         border: 2px dotted #fef5f4;
@@ -1464,7 +1464,7 @@ section {
 
     .contact .info-box h3 {
         font-size: 20px;
-        color: black;
+        color: #444444;
         font-weight: 700;
         margin: 10px 0;
     }
@@ -1479,7 +1479,8 @@ section {
 .contact .php-email-form {
     box-shadow: 0 0 30px #ffffff;
     padding: 30px;
-    border: 1px solid black;
+    border: 1px solid #444444;
+    border-radius: 10px;
 }
 
 }
@@ -2268,7 +2269,7 @@ section {
 .servıces-menu {
     margin-right: 20px;
     padding: 106px 24px;
-    border: 1px solid #e5e5e5;
+    border: 1px solid #000000;
     border-radius: 10px;
     list-style: none;
 }
@@ -2287,7 +2288,7 @@ section {
         }
 
         .servıces-menu li a {
-            color: rgb(255, 255, 255);
+            color: rgb(0 0 0);
             transition: all 0.5s ease;
         }
 
