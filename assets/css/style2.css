@@ -712,6 +712,7 @@ section {
             .featured .icon-box h4 a {
                 color: white;
                 margin-left: 18%;
+                padding: 11px 29px 12px 2px;
             }
 
         .featured .icon-box h3 {
@@ -1623,8 +1624,6 @@ section {
     padding: 30px;
     border: 1px solid #444444;
     border-radius: 10px;
-}
-
 }
 
 .contact .php-email-form .validate {
